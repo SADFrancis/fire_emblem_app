@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # 3rd Parties
     'rest_framework',
     'corsheaders',
+    'django_filters',
     
     # Local
     'api.apps.ApiConfig',
@@ -127,6 +128,34 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+REALMS = {'0': 'Askr',
+        '1':'Embla' ,
+        '2':'Nifl', 
+        '3':'Múspell',
+        '4':'Hel',
+        '5':'Ljósálfheimr',
+        '6':'Dökkálfheimr',
+        '7':'Niðavellir',
+        '8':'Jötunheimr'}
+
+GAME_TITLES = {
+    "FEH":"Fire Emblem Heroes",
+    "FE1":"Fire Emblem: Mystery of the Emblem",
+    "FE3":"Fire Emblem: New Mystery of the Emblem",
+    "FE2":"Fire Emblem Echoes: Shadows of Valentia",
+    "FE4":"Fire Emblem: Genealogy of the Holy War",
+    "FE5":"Fire Emblem: Thracia 776",
+    "FE6":"Fire Emblem: The Binding Blade",
+    "FE7":"Fire Emblem: The Blazing Blade",
+    "FE8":"Fire Emblem: The Sacred Stones",
+    "FE9":"Fire Emblem: Path of Radiance",
+    "FE10":"Fire Emblem: Radiant Dawn",
+    "FE11":"Fire Emblem Awakening",
+    "FE12":"Fire Emblem Fates",
+    "FE13":"Fire Emblem: Three Houses",
+    "TMS":"Tokyo Mirage Sessions ＃FE Encore"
+}
 
 # --------------------  EDITS ------------------------
 REST_FRAMEWORK = {
