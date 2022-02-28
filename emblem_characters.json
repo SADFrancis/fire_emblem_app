@@ -17,6 +17,7 @@
     "line_2": "I'm so fired up, I don't need these winter clothes!",
     "summary": "This outfit of Lyn's comes from Nifl, a land carpeted by glistening white snows. It has the same silhouette as her usual outfit with slits on either side, but it adds a lot of detailing that looks like snowflakes! This Resplendent Attire is as cool as ice!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2020-02-06T07:00:00Z",
     "index": 0
   },
@@ -38,6 +39,7 @@
     "line_2": "I want to learn more about this country and its people. Can you teach me?",
     "summary": "Here's Cordelia in her Askran outfit! Her armor has a white-and-gold color scheme, just like mine and Alfonse's, and it's accented by a scarf draped down her back. And of course, Cordelia's still wearing her trademark wings\u2014except these ones have been done up in Askran style too!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2020-02-25T07:00:00Z",
     "index": 1
   },
@@ -59,6 +61,7 @@
     "line_2": "Whether they are of flame, or of ice... I'll take care of anyone who gets in your way.",
     "summary": "Here's Ike, all decked out in his fiery M\u00faspell attire! It has a silhouette that's similar to his usual gear, but the armor has been given a glamorous upgrade with some dazzling gold detailing. And if you look close, you'll see the inside of his cape features a blue flame design!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2020-03-10T07:00:00Z",
     "index": 2
   },
@@ -80,6 +83,7 @@
     "line_2": "As long as I am with you... I can go anywhere...even a new country... ",
     "summary": "Sophia's wearing her new Emblan attire! That form-fitting black dress makes for a sharp contrast to her usual loose, flowing look. You might also notice that the design of her belt and the collar of her cape matches Veronica's outfit!",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2020-03-25T07:00:00Z",
     "index": 3
   },
@@ -101,6 +105,7 @@
     "line_2": "Being at your side, feeling renewed...I can recall no happier time.",
     "summary": "Here's Azura wearing attire from Nifl, the Kingdom of Ice! The key thing to notice here is the snowflake pattern on the hem of her headdress and gown. And she has snowy flower decorations around her head, just like Gunnthr\u00e1!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2020-04-10T07:00:00Z",
     "index": 4
   },
@@ -122,6 +127,7 @@
     "line_2": "It feels a little frivolous to fuss over appearances, but...I do look good, don't I?",
     "summary": "Well, would you look at that! Isn't Eliwood so distinguished in his new Askran attire? This outfit features a white and gold color scheme, and his sleeves are pleated, just like mine!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2020-04-25T07:00:00Z",
     "index": 5
   },
@@ -143,6 +149,7 @@
     "line_2": "I'm a function over form kind of man, but honestly...I could get used to this.",
     "summary": "Here's Hector wearing a suit of dazzling golden armor from M\u00faspell! The inside of his cape features a fiery design befitting the Kingdom of Flame, and it illuminates his ardent nature!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2020-05-10T07:00:00Z",
     "index": 6
   },
@@ -164,6 +171,7 @@
     "line_2": "If I appeared before them dressed like this, I am curious how my subjects would perceive me!",
     "summary": "Sanaki's wearing Emblan attire with a black and red palette! The flowing cape and sleeves might seem similar to her normal clothing, but you can really see the Emblan style in her headband and the ornamental additions to her outfit.",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2020-05-25T07:00:00Z",
     "index": 7
   },
@@ -185,6 +193,7 @@
     "line_2": "With you by my side, I can bear any wind no matter how chilling.",
     "summary": "Here's Roy wearing his Nifl-inspired attire! That frosty color scheme really does make me think of Nifl's icy climes. The design also complements Fjorm's outfit, with gems embedded in the pauldrons and down accents!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2020-06-10T07:00:00Z",
     "index": 8
   },
@@ -206,6 +215,7 @@
     "line_2": "It would be wonderful if I could meet my father in this world...",
     "summary": "Now it's Linde's turn to honor us by wearing an Askran outfit! The belt she's wearing and the winglike accessories in her hair are definitely authentic, and I just love how her dress reflects the Askran style on display in the armor that Commander Anna and I wear!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2020-06-25T07:00:00Z",
     "index": 9
   },
@@ -227,6 +237,7 @@
     "line_2": "Michalis, Maria... Perhaps this world offers a chance to return things to the way they were...",
     "summary": "Here's Minerva in her new M\u00faspell-themed attire! You might be familiar with the blazing red armor she traditionally wears, but now she's turning up the heat with this fiery new ensemble from the Kingdom of Flame. She's really pulling the look together with that glamorous circlet she's wearing!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2020-07-10T07:00:00Z",
     "index": 10
   },
@@ -248,6 +259,7 @@
     "line_2": "Come what may, please know that I will do everything in my power to ensure you live on.",
     "summary": "Robin's wearing attire from Hel, the realm of the dead! Ohhh, I hope he's OK... Even if he's not feeling like his normal self, this new outfit keeps the black-and-purple theme from his classic look and adds some spooky flair with new patterns and a stylishly frayed hem!",
     "realm": "Hel",
+    "realm_index": 4,
     "release_date": "2020-07-25T07:00:00Z",
     "index": 11
   },
@@ -269,6 +281,7 @@
     "line_2": "These are not mere clothes to me. They are a statement\u2014a commitment. Please allow me to continue to fight by your side.",
     "summary": "Here's Olwen wearing Askran attire! She's taken the classic Order of Heroes white-and-gold theme and truly made it her own. I especially like how the white feathers on her hairpin stand out against her dark hair!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2020-08-10T07:00:00Z",
     "index": 12
   },
@@ -290,6 +303,7 @@
     "line_2": "If I had the power of the lj\u00f3s\u00e1lfar, I would ensure that my brother and Lyon had nothing but carefree dreams. Like the old days...",
     "summary": "Eirika always looks dashing and daring in her usual armor, but she's undergone a stunning makeover with this outfit from Lj\u00f3s\u00e1lfheimr. Those adorable lj\u00f3s\u00e1lfr wings and the flowers in her hair really tie the look together!",
     "realm": "Lj\u00f3s\u00e1lfheimr",
+    "realm_index": 5,
     "release_date": "2020-08-25T07:00:00Z",
     "index": 13
   },
@@ -311,6 +325,7 @@
     "line_2": "Have you seen Celica around here? I wonder if she would be surprised.",
     "summary": "Here comes Alm in his Emblian outfit! Golden detailing is a hallmark of Emblian style, and it's really making his stunning new armor pop. Oh, and check out the matching scabbard he's carrying! It's a beautiful new home for Falchion!",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2020-09-10T07:00:00Z",
     "index": 14
   },
@@ -332,6 +347,7 @@
     "line_2": "I wonder if I can become close with the people of Nifl...",
     "summary": "Julia, inheritor of the sacred Book of Naga, is making an appearance in her fabulous new outfit from Nifl, the Kingdom of Ice. This new look features a gold circlet that complements her gorgeous, silvery hair. It's a perfect match for the wintery look of her snowflake-adorned dress!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2020-09-25T07:00:00Z",
     "index": 15
   },
@@ -353,6 +369,7 @@
     "line_2": "The Realm of the Dead? Yes...it does sound intimidating. But some say that death is a peaceful release...",
     "summary": "Here's Takumi, prince of Hoshido and Corrin's younger brother, in his garb from Hel, the realm of the dead! This outfit has a silhouette that's similar to his usual Hoshidan attire, but the dark color scheme and those boots and gauntlets give it a truly Hel-ish spin!",
     "realm": "Hel",
+    "realm_index": 4,
     "release_date": "2020-10-10T07:00:00Z",
     "index": 16
   },
@@ -374,6 +391,7 @@
     "line_2": "Let's go seek out a picture-perfect winter landscape together, a vista peaceful and still.",
     "summary": "Check out Caeda in her new attire from Nifl, the Kingdom of Ice! Wintry, white armor adorned with feathers and gold detailing are hallmarks of Nifl fashion, and I have to say, the look suits Caeda perfectly. The long, shawl-like scarf she's wearing adds an extra touch of elegance, not to mention warmth, to her outfit!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2020-10-25T07:00:00Z",
     "index": 17
   },
@@ -395,6 +413,7 @@
     "line_2": "I may be in another world, but my duty to protect those who are powerless to protect themselves has followed me here.",
     "summary": "Here's Marth, Prince of Altea, showing off his new Askran outfit! This outfit features Askr's traditional colors, white and gold, as well as a wing-themed design. I think he nailed the look, and I'm sure his confidence will rub off on the other Heroes here in Askr as well!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2020-11-10T07:00:00Z",
     "index": 18
   },
@@ -416,6 +435,7 @@
     "line_2": "Peace is no mere fairy tale. I will make it happen.",
     "summary": "Check out Lucina's new outfit from Lj\u00f3s\u00e1lfheimr. That cape made to look like wings on her back is perfect for her! Her classic outfit is certainly sleek and stylish, but I think she's truly taken the light, airy look of the lj\u00f3s\u00e1lfar and made it her own.",
     "realm": "Lj\u00f3s\u00e1lfheimr",
+    "realm_index": 5,
     "release_date": "2020-11-25T07:00:00Z",
     "index": 19
   },
@@ -437,6 +457,7 @@
     "line_2": "Let us set our souls ablaze with the wild flames of passion.",
     "summary": "Hailing from the kingdom of Nohr, Niles is making an appearance in his new outfit from M\u00faspell! I have to say, that fiery cape is totally Niles! Oh, and you can even get a peek at the scale mail he's wearing underneath too!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2020-12-10T07:00:00Z",
     "index": 20
   },
@@ -458,6 +479,7 @@
     "line_2": "When my brother sees me all dressed up, maybe he'll finally stop treating me like a little girl!",
     "summary": "Here comes Delthea, the bubbly young mage who packs a magical punch! This time, she's sporting an all-new look with an outfit inspired by D\u00f6kk\u00e1lfheimr, the realm of nightmares. Even the ribbon in her hair has received a d\u00f6kk\u00e1lfr-style makeover!",
     "realm": "D\u00f6kk\u00e1lfheimr",
+    "realm_index": 6,
     "release_date": "2020-12-25T07:00:00Z",
     "index": 21
   },
@@ -479,6 +501,7 @@
     "line_2": "This outfit makes an apt pairing with the Demon Sword Mystletainn I wield, does it not?",
     "summary": "Here's Eldigan, inheritor of the Demon Sword Mystletainn! His classic red outfit has been given a whole new spin with the sleek black stylings of Hel, the realm of the dead. The cape draped over his arm and floating around him certainly does give him an eerie appearance!",
     "realm": "Hel",
+    "realm_index": 4,
     "release_date": "2021-01-10T07:00:00Z",
     "index": 22
   },
@@ -500,6 +523,7 @@
     "line_2": "Ban-Ban said \"you look very nice, Tiki!\" *giggle*",
     "summary": "Here's Tiki, dressed up in her new attire from Embla! Emblian outfits tend to come in black with gold highlights, giving them a sleek, formal look. This might seem a little at odds with Tiki's usually bright attire and cheerful disposition, but she's made the style her own with the ribbon accessory tied around her waist!",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2021-01-25T07:00:00Z",
     "index": 23
   },
@@ -521,6 +545,7 @@
     "line_2": "No matter where I look, I find strong foes, new challenges. The world is vast.",
     "summary": "Ike's here in attire from Ni\u00f0avellir, the realm of dvergar! Maybe it has something to do with this outfit being more form-fitting than his normal clothes, but I think he looks even more fighting fit than usual! His new look even goes well with his axe, Urvan, which is always an impressive sight to behold too!",
     "realm": "Ni\u00f0avellir",
+    "realm_index": 7,
     "release_date": "2021-02-10T07:00:00Z",
     "index": 24
   },
@@ -542,6 +567,7 @@
     "line_2": "I can't stop thinking about what the realm of dreams must be like. I want to see it for myself!",
     "summary": "Tana, princess of Frelia, is here to show off her new look from Lj\u00f3s\u00e1lfheimr, the realm of dreams! This outfit has some similarities to Tana's usual attire, such as the skirt and over-the-knee boots, but it also incorporates layers of dreamy, delicate fabrics, just like what the lj\u00f3s\u00e1lfar wear!",
     "realm": "Lj\u00f3s\u00e1lfheimr",
+    "realm_index": 5,
     "release_date": "2021-02-25T07:00:00Z",
     "index": 25
   },
@@ -563,6 +589,7 @@
     "line_2": "I hope that everyone can sleep well, and has pleasant dreams.",
     "summary": "Well, look at that! The princess of Crimea got a d\u00f6kk\u00e1lfr-style makeover! Elincia can usually be seen in her loose-fitting dress and light armor, but I think the sleek silhouette of this new attire suits her just as well!",
     "realm": "D\u00f6kk\u00e1lfheimr",
+    "realm_index": 6,
     "release_date": "2021-03-10T07:00:00Z",
     "index": 26
   },
@@ -584,6 +611,7 @@
     "line_2": "I was once a man forced down a single path, but perhaps in this world, more lie open to me...",
     "summary": "Here's Reinhardt, the Hero that some say is the second coming of the crusader Thrud! This time, the mage knight from Friege is making an appearance in some eye-catching Askran attire. It's quite a departure from his usual somber black uniform, but I think this bright new look suits him wonderfully!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2021-03-25T07:00:00Z",
     "index": 27
   },
@@ -605,6 +633,7 @@
     "line_2": "To consider death makes me also consider how I must do all I can with the time I have left.",
     "summary": "When Micaiah first showed up in this striking outfit from Hel, the realm of the dead, I was a little worried that she'd given up on the Dawn Brigade and joined up with the Doom Brigade instead! Fortunately for us, the new look didn't change her pleasant personality!",
     "realm": "Hel",
+    "realm_index": 4,
     "release_date": "2021-04-10T07:00:00Z",
     "index": 28
   },
@@ -626,6 +655,7 @@
     "line_2": "I can only imagine Roy's face when he sees me in this outfit.",
     "summary": "Lilina, the lady of House Ostia, received a fiery makeover straight out of M\u00faspell, the Kingdom of Flame! Some might find the bold, burning hues of this attire a little too hot to handle, but Lilina certainly looks like she can take the heat. Oh, and I just love the horn-like headpiece she's wearing. If that doesn't make you think of M\u00faspell, I don't know what will!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2021-04-25T07:00:00Z",
     "index": 29
   },
@@ -647,6 +677,7 @@
     "line_2": "I wonder what Father and Mother will say. Heh. The thought actually makes me a little nervous.",
     "summary": "Here's Leif, the prince of Leonster, in his brand-new attire from Nifl, the Kingdom of Ice! I have to say, that white-and-gold armor is the perfect match for his famous sword, the Light Brand. The wintry stylings extend beyond just the color palette though\u2014his outfit is also adorned with the snowflakes and feathers that attire from Nifl is known for!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2021-05-10T07:00:00Z",
     "index": 30
   },
@@ -668,6 +699,7 @@
     "line_2": "Now that we match, do you think Princess Veronica would talk to me?",
     "summary": "Presenting Nino, dressed up in her new Emblian attire! Nino was once a member of the Black Fang assassins, but as you can probably tell just from looking at her, she's not really the hardened, cutthroat type. She was more of a ray of light in the darkness for some of the assassins around her, and with that sleek black-and-gold outfit, she looks the part!",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2021-05-25T07:00:00Z",
     "index": 31
   },
@@ -689,6 +721,7 @@
     "line_2": "M\u00faspell's generals burn fiercely. I had better match their intensity.",
     "summary": "Here's Chrom, clad in his new attire from M\u00faspell, the Kingdom of Flame! Chrom's usual outfit features a cool white-and-blue color scheme, but here he's showing off another side of himself with the intense red, black, and gold stylings of M\u00faspell fashion! Chrom's ready to light up the battlefield in that fiery-looking cape!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2021-06-10T07:00:00Z",
     "index": 32
   },
@@ -710,6 +743,7 @@
     "line_2": "As a child, my picture books were filled with fairies. My brother was quite fond of them as well.",
     "summary": "Here it is, folks! The grand unveiling of Celica's attire from Lj\u00f3s\u00e1lfheimr, the realm of dreams! The Zofian princess's new outfit has a delicate, fairy-like appearance that gives her a truly elegant, and, dare I say, dreamy look. I can practically see her fluttering away to help the lj\u00f3s\u00e1lfar bring people pleasant dreams!",
     "realm": "Lj\u00f3s\u00e1lfheimr",
+    "realm_index": 5,
     "release_date": "2021-06-25T07:00:00Z",
     "index": 33
   },
@@ -731,6 +765,7 @@
     "line_2": "If only I could come to understand the workings of Sei\u00f0j\u00e1rn... I am certain this would be of no small help to Prince Marth.",
     "summary": "Here's Merric, the Altean wind mage, wearing his brand-new, custom-made outfit from Ni\u00f0avellir, the realm of dvergar! This new attire retains his signature cape and hood that everyone knows and loves, but he's also wearing a form-fitting combat suit underneath that's made with the latest sei\u00f0j\u00e1rn technology!",
     "realm": "Ni\u00f0avellir",
+    "realm_index": 7,
     "release_date": "2021-07-10T07:00:00Z",
     "index": 34
   },
@@ -752,6 +787,7 @@
     "line_2": "J\u00f6tunheimr is the land of the j\u00f6tnar, right? They're so big! Talk about impressive.",
     "summary": "Amelia, the novice soldier from Silva, is always working hard to improve herself on the battlefield, and now it looks like she's improving her attire as well with this outfit from J\u00f6tunheimr, kingdom of the J\u00f6tnar! She usually dons vermilion armor, but she's looking pretty sharp in her chic new attire. This new look even includes a big red cape, clearly inspired by her classic look!",
     "realm": "J\u00f6tunheimr",
+    "realm_index": 8,
     "release_date": "2021-07-25T07:00:00Z",
     "index": 35
   },
@@ -773,6 +809,7 @@
     "line_2": "Death is a mercenary's worst enemy and best friend. If you can't come to terms with that, you won't survive.",
     "summary": "Raven is a wandering mercenary who has sworn vengeance on the ones who brought his house to ruin. With that attitude, it's no surprise this outfit from Hel, the realm of the dead, suits him so well! This dark attire features patterns that glow with an eerie blue light\u2014perfect for striking fear into the hearts of his foes...and it's stylish too!",
     "realm": "Hel",
+    "realm_index": 4,
     "release_date": "2021-08-10T07:00:00Z",
     "index": 36
   },
@@ -794,6 +831,7 @@
     "line_2": "M\u00faspell certainly lives up to its title as the Kingdom of Flame... But the heat is terrible for my skin.\r\r\n\r\r\n",
     "summary": "Here's Sonya, the cool yet flamboyant sorceress in the employ of the dreaded pirate Grieth, and today she's showing off her new M\u00faspell-themed attire! I can't imagine an outfit that would suit her bewitching style better than the red, black, and gold tones of the Kingdom of Flame. With this daring new look, she's going on an all-out charm offensive!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2021-08-25T07:00:00Z",
     "index": 37
   },
@@ -815,6 +853,7 @@
     "line_2": "Princess Veronica seems hard to please. Do you think she and I would get along?",
     "summary": "Today I'd like to reintroduce you to Tailtiu and her new outfit from Embla! Tailtiu is a noblewoman of House Friege who you're probably used to seeing draped in an understated white dress. Well, just look at her now! She's decked out in new attire featuring the black-and-gold color scheme that's so popular with Emblian nobility! And that cape really ties the outfit together, don't you think?",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2021-09-10T07:00:00Z",
     "index": 38
   },
@@ -836,6 +875,7 @@
     "line_2": "I've come all this way just to protect Micaiah. I won't lose her now.",
     "summary": "Here's Sothe in his brand-new outfit from Ni\u00f0avellir! Like his usual garb, this new attire focuses on ease of movement, which is just perfect for a thief. Unlike his usual garb, however, his handguards, hip guards, and boots, have all received major upgrades with cutting-edge sei\u00f0j\u00e1rn technology!",
     "realm": "Ni\u00f0avellir",
+    "realm_index": 7,
     "release_date": "2021-09-25T07:00:00Z",
     "index": 39
   },
@@ -857,6 +897,7 @@
     "line_2": "I'm proud of my Ilian uniform. It matches my sisters'!",
     "summary": "Shanna's here to debut her new attire from Embla! It truly is a glamorous transformation and a departure for the trainee pegasus knight from Ilia who usually wears a breezy blue-and-white outfit. Oh, and did you notice her belt? It looks just like the one Veronica wears!",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2021-10-10T07:00:00Z",
     "index": 40
   },
@@ -878,6 +919,7 @@
     "line_2": "My attire matters little\u2014no matter what happens, I will fulfill my duty as a ninja to protect my liege. ",
     "summary": "Kagero is a ninja from Hoshido, but this time around she's come out from the shadows to debut her new attire from D\u00f6kk\u00e1lfheimr, the realm of nightmares! Those beautiful fairy wings sure are enchanting, but did you notice how parts of her outfit are a little...spiky? I guess it's true that every rose has its thorns!",
     "realm": "D\u00f6kk\u00e1lfheimr",
+    "realm_index": 6,
     "release_date": "2021-10-25T07:00:00Z",
     "index": 41
   },
@@ -899,6 +941,7 @@
     "line_2": "Nifl is a land of ice and snow... But I just can't stand the cold!",
     "summary": "Serra's an outspoken cleric who serves House Ostia of the Lycian League. She's never been afraid to make a statement, and today she's doing just that with a fabulous white-and-gold outfit from Nifl, the Kingdom of Ice! She's even wearing a pristine white rose in her hair to match her dress. Way to pull the look together!",
     "realm": "Nifl",
+    "realm_index": 2,
     "release_date": "2021-11-10T07:00:00Z",
     "index": 42
   },
@@ -920,6 +963,7 @@
     "line_2": "After spending so much time in Askr, I hold an affection for this world that will doubtless make returning home difficult.",
     "summary": "The eldest prince of Hoshido is here in his eye-catching new attire from Askr! Does anything about his armor look familiar? That's right! It features an asymmetrical pauldron design to protect his neck, just like the armor that Alfonse, Commander Anna, and I wear!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2021-11-25T07:00:00Z",
     "index": 43
   },
@@ -941,6 +985,7 @@
     "line_2": "Everyone in this castle is very nice to me. It makes me so happy!",
     "summary": "Nowi's here to set the world on fire with her new outfit from M\u00faspell! Inspired by roaring flames, this fierce-looking design features a bold black, gold, and red color scheme. Nowi's making a strong statement and letting her foes know that if they play with fire, they'll definitely get burned!",
     "realm": "M\u00faspell",
+    "realm_index": 3,
     "release_date": "2021-12-10T07:00:00Z",
     "index": 44
   },
@@ -962,6 +1007,7 @@
     "line_2": "Lord Julius and I always so delighted in dressing up in finery.",
     "summary": "Here's Ishtar, descendant of the crusader Thrud! She's here to show off her stylish new look from J\u00f6tunheimr that features a stunning, brilliant dress that's bound to turn heads. Her new outfit is even accessorized with a red cape and belts with a coin-shaped motif, just like what the j\u00f6tnar wear!",
     "realm": "J\u00f6tunheimr",
+    "realm_index": 8,
     "release_date": "2021-12-25T07:00:00Z",
     "index": 45
   },
@@ -983,6 +1029,7 @@
     "line_2": "I'd love it if my sisters and I could all wear \u00e1lfr outfits together.",
     "summary": "Wow, check out Est's new outfit! She's one of the Macedonian Whitewings, but today, she's dressed as a lj\u00f3s\u00e1lfr from Lj\u00f3s\u00e1lfheimr, complete with an adorable set of wings of her own! Her outfit also features the charming floral motif that's so popular in Lj\u00f3s\u00e1lfheimr. She even accessorized with matching flowers!",
     "realm": "Lj\u00f3s\u00e1lfheimr",
+    "realm_index": 5,
     "release_date": "2022-01-10T07:00:00Z",
     "index": 46
   },
@@ -1004,6 +1051,7 @@
     "line_2": "I'd like to get to know Princess Eir better, except...I have no idea how to talk to her.",
     "summary": "Here's Florina, the lovable pegasus knight in training, and this time she's changed up her look in a big way by making a bold statement with a new outfit from Hel, the realm of the dead! Who would have guessed that the sleek, black-and-white stylings of Hel would suit her so well?",
     "realm": "Hel",
+    "realm_index": 4,
     "release_date": "2022-01-25T07:00:00Z",
     "index": 47
   },
@@ -1025,6 +1073,7 @@
     "line_2": "Call me if you can't sleep. I would be glad to talk to you.",
     "summary": "Deirdre's here to show off her fabulous new dress from D\u00f6kk\u00e1lfheimr, the realm of nightmares! It's decorated with thorny patterns here and there, and it even comes with bewitching wings on the back. Oh, and check out that accessory in her hair\u2014it looks like floral leaves!",
     "realm": "D\u00f6kk\u00e1lfheimr",
+    "realm_index": 6,
     "release_date": "2022-02-10T07:00:00Z",
     "index": 48
   },
@@ -1046,6 +1095,7 @@
     "line_2": "I rarely give much thought to returning home.",
     "summary": "Lukas is here, and he switched out his usual suit of scarlet armor for some stylish Emblian attire that incorporates black and gold! The armor at his shoulders and waist have an asymmetric design, adding even more eye-catching detail to what's already a very fashionable outfit!",
     "realm": "Embla",
+    "realm_index": 1,
     "release_date": "2022-02-25T07:00:00Z",
     "index": 49
   },
@@ -1067,6 +1117,7 @@
     "line_2": "I must live a life my mother and father would be proud of.",
     "summary": "Here's Seliph showing off his new attire from Askr! People often associate the Scion of Light with the classic blue outfit he usually wears, but I think this white-and-gold look gives him an extra touch of regal flair!",
     "realm": "Askr",
+    "realm_index": 0,
     "release_date": "2022-03-10T07:00:00Z",
     "index": 50
   }

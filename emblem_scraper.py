@@ -159,10 +159,12 @@ def getCharacterDetails(char_ref_link, game_origin='',release_index=525):
 
     # Check realm theme based on lines and summary (why encoding was necessary)
     realm = ""
+    realm_index = 0
     for regex in kingdom_regex_dict:    
         if regex.search(summary):
             realm = kingdom_regex_dict[regex]
-            break    
+            break
+        realm_index +=1     
         for line in lines:
             if regex.search(line):
                 print("found em")
@@ -187,6 +189,7 @@ def getCharacterDetails(char_ref_link, game_origin='',release_index=525):
             'line_2': lines[1],
             'summary': summary,
             'realm': realm,
+            'realm_index': realm_index,
             'release_date':assignReleaseDate(release_index),
             'index': release_index
             }

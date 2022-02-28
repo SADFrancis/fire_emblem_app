@@ -25,22 +25,58 @@ def getRoutes(request):
             'description': 'Returns all resplendent units sharing a design theme of a specific realm'
         },        
         {
-            'Endpoint': '/country/id',
-            'method': 'GET',
-            'body': None,
-            'description': 'Returns a single country object'
-        },
-        {
             'Endpoint': '/characters/',
             'method': 'GET/POST',
             'body': None,
             'description': 'Returns an array of characters and allows to create one'
         },
         {
-            'Endpoint': '/characters/id',
+            'Endpoint': '/characters/<str:Name>',
             'method': 'GET',
             'body': None,
-            'description': 'Returns an array of characters'
+            'description': 'Returns all resplendent characters with (case insensitve) Name (characters/Ishtar)'
+        },        
+        {
+            'Endpoint': '/characters/latest',
+            'method': 'GET',
+            'body': None,
+            'description': 'Returns most recently revealed unit published on site'
+        },
+        {
+            'Endpoint': '/characters/updatelatestarchived',
+            'method': 'GET,POST',
+            'body': None,
+            'description': 'Gets most recently archived unit, and is used to update game_origin of the most recently archived unit'
+        },
+        {
+            'Endpoint': '/titles/',
+            'method': 'GET',
+            'body': None,
+            'description': 'Returns dictionary of game titles'
+        },
+        {
+            'Endpoint': '/titles/<str:key>',
+            'method': 'GET',
+            'body': None,
+            'description': 'Returns all archived characters from the game title of a corresponding key (/titles/FE1). Current and future units are omitted due to lack of data.  '
+        },
+        {
+            'Endpoint': '/year/',
+            'method': 'GET',
+            'body': None,
+            'description': 'Returns all characters, to setup for year filtering'
+        },
+        {
+            'Endpoint': '/year/<str:year>',
+            'method': 'GET',
+            'body': None,
+            'description': 'Returns all characters of a specified year'
+        },
+        {
+            'Endpoint': '/year/<str:year>/<str:month>',
+            'method': 'GET',
+            'body': None,
+            'description': 'Returns all characters of a specified year and month (/year/2020/2)'
         },
     ]
 
@@ -103,8 +139,8 @@ def monthOfYearList(request,year,month):
     return Response(serializer.data)
 
 @api_view(['GET'])
-def titleList(request,pk):
-    characters = Character.objects.filter(game_origin=GAME_TITLES[pk])
+def titleList(request,key):
+    characters = Character.objects.filter(game_origin=GAME_TITLES[key])
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 

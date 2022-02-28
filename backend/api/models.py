@@ -27,6 +27,7 @@ class Character(models.Model):
     line_2 = models.TextField(null=True)
     summary = models.TextField(null=True)
     realm = models.CharField(max_length=60)
+    realm_index = models.IntegerField()
     release_date = models.DateTimeField(auto_now=False)
     index = models.IntegerField()
 
