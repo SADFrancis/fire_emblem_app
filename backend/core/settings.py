@@ -168,7 +168,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-"http://localhost:3000",
-"http://127.0.0.1:3000",
-'https://feh-resplendent.herokuapp.com:3000'
+f"http://localhost:{os.environ.get('PORT', 3000)}",
+f"http://127.0.0.1:{os.environ.get('PORT', 3000)}",
+f"https://feh-resplendent.herokuapp.com:{os.environ.get('PORT', 3000)}"
 ]
