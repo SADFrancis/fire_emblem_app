@@ -42,12 +42,12 @@ def getRoutes(request):
             'body': None,
             'description': 'Returns most recently revealed unit published on site'
         },
-        {
-            'Endpoint': '/characters/updatelatestarchived',
-            'method': 'GET,POST',
-            'body': None,
-            'description': 'Gets most recently archived unit, and is used to update game_origin of the most recently archived unit'
-        },
+        # {
+        #     'Endpoint': '/characters/updatelatestarchived',
+        #     'method': 'GET,POST',
+        #     'body': None,
+        #     'description': 'Gets most recently archived unit, and is used to update game_origin of the most recently archived unit'
+        # },
         {
             'Endpoint': '/titles/',
             'method': 'GET',

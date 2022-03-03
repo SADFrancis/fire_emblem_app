@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ansufci#sg4%w)o22#q)#9qfy3s-2yf)gl!_$3elbj4ttn7!--'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['feh-resplendent.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -50,6 +50,8 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -127,6 +129,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATIC_URL = '/static/'
 
 REALMS = {'0': 'Askr',
@@ -166,5 +169,6 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
 "http://localhost:3000",
-"http://127.0.0.1:3000"
+"http://127.0.0.1:3000",
+'feh-resplendent.herokuapp.com:3000'
 ]

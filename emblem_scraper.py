@@ -247,7 +247,7 @@ if __name__ == "__main__":
             char_details = getCharacterDetails(link['ref_id'],link['game_origin'],index)
             index +=1
             saveCharacterInfo(char_details)
-            r = requests.post(POST_CHARA_DETAILS_URL, json=char_details)
+            #r = requests.post(POST_CHARA_DETAILS_URL, json=char_details)
         print(f"Done! Updated the file with all previously released and archived units as of: \n {datetime.datetime.now()} \n See {FILE_PATH} for details!")
     else:
         print(f"Going to check {FILE_PATH} to find current and upcoming entries \n as of {datetime.datetime.now()}")
@@ -289,7 +289,7 @@ if __name__ == "__main__":
                     print(f"Updating game origin of {char_in_db['name']} - {char_in_db['title']}: ref_id {char_in_db['ref_id']}")
                     json_file.write(json.dumps(scraped_data,sort_keys=False,ensure_ascii=False,indent=2))
                     # UPDATE CHARACTER IN DJANGO DATABASE
-                    r = requests.post(UPDATE_CHARA_DETAILS_URL, json=char_in_db)
+                    #r = requests.post(UPDATE_CHARA_DETAILS_URL, json=char_in_db)
                     did_site_updated_latest_archived_unit = True        
         
         if scraped_data[-1]['ref_id'] == current_and_next_details[-1]['ref_id']:
@@ -310,7 +310,7 @@ if __name__ == "__main__":
                     break
             if not is_in_already:
                 saveCharacterInfo(char_details)
-                r = requests.post(POST_CHARA_DETAILS_URL, json=char_details)
+                #r = requests.post(POST_CHARA_DETAILS_URL, json=char_details)
             is_in_already = False
         print("Database updated with new entries!")
 
