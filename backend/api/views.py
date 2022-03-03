@@ -6,6 +6,7 @@ from django.http import HttpResponse, JsonResponse
 from .models import Character
 from .serializers import CharacterSerializer
 from core.settings import REALMS, GAME_TITLES
+#import core
 #from django.contrib.postgres.fields.jsonb import KeyTextTransform
 
 
