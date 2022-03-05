@@ -24,7 +24,7 @@ SECRET_KEY = 'ansufci#sg4%w)o22#q)#9qfy3s-2yf)gl!_$3elbj4ttn7!--'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['feh-resplendent.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['feh-resplendent.herokuapp.com','127.0.0.1','0.0.0.0']
 
 
 # Application definition
@@ -171,3 +171,7 @@ f"http://localhost:{os.environ.get('PORT', 3000)}",
 f"http://127.0.0.1:{os.environ.get('PORT', 3000)}",
 f"https://feh-resplendent.herokuapp.com:{os.environ.get('PORT', 3000)}"
 ]
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
