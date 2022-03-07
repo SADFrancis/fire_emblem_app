@@ -11,6 +11,41 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
+import dj_database_url
+from decouple import config
+
+
+REALMS = {'0': 'Askr',
+        '1':'Embla' ,
+        '2':'Nifl', 
+        '3':'Múspell',
+        '4':'Hel',
+        '5':'Ljósálfheimr',
+        '6':'Dökkálfheimr',
+        '7':'Niðavellir',
+        '8':'Jötunheimr'}
+
+GAME_TITLES = {
+    "FEH":"Fire Emblem Heroes",
+    "FE1":"Fire Emblem: Mystery of the Emblem",
+    "FE3":"Fire Emblem: New Mystery of the Emblem",
+    "FE2":"Fire Emblem Echoes: Shadows of Valentia",
+    "FE4":"Fire Emblem: Genealogy of the Holy War",
+    "FE5":"Fire Emblem: Thracia 776",
+    "FE6":"Fire Emblem: The Binding Blade",
+    "FE7":"Fire Emblem: The Blazing Blade",
+    "FE8":"Fire Emblem: The Sacred Stones",
+    "FE9":"Fire Emblem: Path of Radiance",
+    "FE10":"Fire Emblem: Radiant Dawn",
+    "FE11":"Fire Emblem Awakening",
+    "FE12":"Fire Emblem Fates",
+    "FE13":"Fire Emblem: Three Houses",
+    "TMS":"Tokyo Mirage Sessions ＃FE Encore"
+}
+
+
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -131,33 +166,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATIC_URL = '/static/'
 
-REALMS = {'0': 'Askr',
-        '1':'Embla' ,
-        '2':'Nifl', 
-        '3':'Múspell',
-        '4':'Hel',
-        '5':'Ljósálfheimr',
-        '6':'Dökkálfheimr',
-        '7':'Niðavellir',
-        '8':'Jötunheimr'}
-
-GAME_TITLES = {
-    "FEH":"Fire Emblem Heroes",
-    "FE1":"Fire Emblem: Mystery of the Emblem",
-    "FE3":"Fire Emblem: New Mystery of the Emblem",
-    "FE2":"Fire Emblem Echoes: Shadows of Valentia",
-    "FE4":"Fire Emblem: Genealogy of the Holy War",
-    "FE5":"Fire Emblem: Thracia 776",
-    "FE6":"Fire Emblem: The Binding Blade",
-    "FE7":"Fire Emblem: The Blazing Blade",
-    "FE8":"Fire Emblem: The Sacred Stones",
-    "FE9":"Fire Emblem: Path of Radiance",
-    "FE10":"Fire Emblem: Radiant Dawn",
-    "FE11":"Fire Emblem Awakening",
-    "FE12":"Fire Emblem Fates",
-    "FE13":"Fire Emblem: Three Houses",
-    "TMS":"Tokyo Mirage Sessions ＃FE Encore"
-}
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # --------------------  EDITS ------------------------
 REST_FRAMEWORK = {
@@ -171,3 +180,5 @@ f"http://localhost:{os.environ.get('PORT', 3000)}",
 f"http://127.0.0.1:{os.environ.get('PORT', 3000)}",
 f"https://feh-resplendent.herokuapp.com:{os.environ.get('PORT', 3000)}"
 ]
+
+#django_heroku.settings(locals())
