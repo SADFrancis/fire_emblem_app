@@ -1,0 +1,47 @@
+For the Procfile, the root directory is FIRE_EMBLEM_APP while the django project is in backend/.
+Procfile must be in the root directory, therefore it should be setup as so:
+
+web: gunicorn --pythonpath backend feh.wsgi --log-file - 
+release: python backend/manage.py makemigrations --no-input
+
+
+Where pythonpath specifies the django directory, and the feh.wsgi is the folder to get to wsgi.py
+Release is just the path to the manage.py file.
+
+Beyond that, you need to pip install the modules:
+
+whitenoise
+django-heroku
+
+
+I believe django-heroku also downloads a few packages for you, but refer to these videos for all
+of what to install and where to declare them in the files (settings, and wsgi).
+
+https://www.youtube.com/watch?v=kBwhtEIXGII
+https://www.youtube.com/watch?v=UkokhawLKDU
+
+More importantly, make sure __init__.py is in each of your folders. It tells Python to treat
+the directory as a package and makes it easier to find the files (I think, I dunno).
+
+If using django_heroku module, at the bottom of settings, make sure to include the staticfiles flag
+as it would conflict with whitenoise. 
+
+django_heroku.settings(locals(), staticfiles=False)
+
+also this in the settings file is commented out
+
+#STATICFILES_STORAGE
+
+This is because it conflicts with whitenoise.
+
+
+Note, I added '0.0.0.0' to the ALLOWED_HOSTS and CORS_ALLOWED_ORIGINS for the command
+heroku local, to test if the project would run (so those aren't necessary for the project to run). I just got connection errors trying to connect to
+('0.0.0.0',5000) which isn't as helpful as checking the logs on heroku's release logs which give 
+more information on what's wrong. Even then, when it deployed to heroku, heroku local still didn't 
+connect properly.
+
+Some stackoverflow links to reminisce over in the future.
+
+https://stackoverflow.com/questions/71346427/deploying-python-django-project-to-heroku-error-modulenotfounderror-no-module
+https://stackoverflow.com/questions/71387867/django-deployment-to-heroku-error-python-cant-open-file-app-backend-manage
