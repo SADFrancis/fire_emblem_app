@@ -34,6 +34,14 @@ also this in the settings file is commented out
 
 This is because it conflicts with whitenoise.
 
+FOR THE DATABASE in settings:
+
+import dj_database_url
+
+DATABASES = {'default': dj_database_url.config()}
+
+
+
 
 Note, I added '0.0.0.0' to the ALLOWED_HOSTS and CORS_ALLOWED_ORIGINS for the command
 heroku local, to test if the project would run (so those aren't necessary for the project to run). I just got connection errors trying to connect to
