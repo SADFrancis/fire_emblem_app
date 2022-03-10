@@ -9,7 +9,7 @@ import jsonlines
 import sys
 
 
-headers = {'Authorization': 'Token f1ad414628f8d0ee3a2a8b0684bce1dc65ef414a'}
+headers = {'Authorization': 'Token e4f2558a0794b8e6cdc65325c5c48a9425622e59'}
 
 PAGE_URL = "https://fehpass.fire-emblem-heroes.com/en-US/"
 BASE_URL = "https://fehpass.fire-emblem-heroes.com"

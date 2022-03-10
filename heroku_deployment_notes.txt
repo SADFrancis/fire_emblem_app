@@ -40,6 +40,8 @@ import dj_database_url
 
 DATABASES = {'default': dj_database_url.config()}
 
+Other notes for migrating to heroku database (it does not have sqlite)
+https://www.youtube.com/watch?v=qJJPX_RaA_w&t=769s
 
 
 
