@@ -1,5 +1,6 @@
 from django.urls import path
 from . import views
+from django.contrib.auth.views import LoginView
 
 urlpatterns = [
     path('', views.getRoutes, name="routes" ),
@@ -13,5 +14,6 @@ urlpatterns = [
     path('year/<str:year>', views.yearList, name="Character by year" ),
     path('year/<str:year>/<str:month>', views.monthOfYearList, name="Character by month of said year" ),
     path('characters/latest', views.LatestDetail, name = "Returns the most recently added Resplendent"),
-    path('characters/updatelatestarchived', views.UpdateLatestArchived, name = "Update the game_origin of the most recently archived Resplendent")
+    path('characters/updatelatestarchived', views.UpdateLatestArchived, name = "Update the game_origin of the most recently archived Resplendent"),
+    path('login/',LoginView.as_view(), name="try")
  ]

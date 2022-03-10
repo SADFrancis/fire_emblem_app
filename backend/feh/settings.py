@@ -76,6 +76,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'django_filters',
+    'rest_framework.authtoken',
     
     # Local
     'api.apps.ApiConfig',
@@ -174,11 +175,12 @@ STATIC_URL = '/static/'
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # --------------------  EDITS ------------------------
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
-    ]
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.AllowAny',
+        
+#     ]
+# }
 
 CORS_ALLOWED_ORIGINS = [
 f"http://localhost:{os.environ.get('PORT', 3000)}",

@@ -1,13 +1,15 @@
 from django.shortcuts import render, get_object_or_404
 from rest_framework import generics, status
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 from rest_framework.response import Response
 from django.http import HttpResponse, JsonResponse
 from .models import Character
 from .serializers import CharacterSerializer
 from feh.settings import REALMS, GAME_TITLES
-#import core
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.authentication import TokenAuthentication
 #from django.contrib.postgres.fields.jsonb import KeyTextTransform
+
 
 
 @api_view(['GET'])
@@ -92,12 +94,12 @@ def getRoutes(request):
 #     queryset = Country.objects.all()
 #     serializer_class = CountrySerializer
 
+
 class CharacterList(generics.ListCreateAPIView):
+    authentication_classes = [TokenAuthentication] 
+    permission_classes = [IsAuthenticatedOrReadOnly]
     queryset = Character.objects.all()
     serializer_class = CharacterSerializer
-
-    # def get_queryset(self):
-    #     return self.queryset.filter(owner=self.request.name)
 
 class CharacterDetail(generics.RetrieveAPIView):
     queryset = Character.objects.all()
@@ -152,6 +154,8 @@ def LatestDetail(request):
     return Response(serializer.data)
 
 @api_view(['GET','POST'])
+@permission_classes([IsAuthenticatedOrReadOnly])
+@authentication_classes([TokenAuthentication])
 def UpdateLatestArchived(request):
     if request.method == 'GET':
         characters = Character.objects.filter(game_origin="")
