@@ -55,3 +55,11 @@ Some stackoverflow links to reminisce over in the future.
 
 https://stackoverflow.com/questions/71346427/deploying-python-django-project-to-heroku-error-modulenotfounderror-no-module
 https://stackoverflow.com/questions/71387867/django-deployment-to-heroku-error-python-cant-open-file-app-backend-manage
+
+
+Finally, for the database, remember that the database is initialized from scratch on heroku's Postgres add on,
+therefore if you want to access the admin page for Token generation, you need to run the command
+
+python manage.py migrate authtoken 
+
+in heroku's commandline.
