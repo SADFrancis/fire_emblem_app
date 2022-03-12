@@ -97,8 +97,8 @@ def getRoutes(request):
 
 class CharacterList(generics.ListCreateAPIView):
     authentication_classes = [TokenAuthentication] 
-    permission_classes = [IsAuthenticatedOrReadOnly]
-    queryset = Character.objects.all()
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+    queryset = Character.objects.all().order_by('id')
     serializer_class = CharacterSerializer
 
 class CharacterDetail(generics.RetrieveAPIView):
