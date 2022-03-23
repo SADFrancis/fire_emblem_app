@@ -113,37 +113,37 @@ def game_titles(request):
 
 @api_view(['GET'])
 def characterList(request):
-    characters = Character.objects.filter(release_date__year=request.GET['year'])
+    characters = Character.objects.filter(release_date__year=request.GET['year']).order_by('id')
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 
 @api_view(['GET'])
 def characterDetail(request,Name):
-    characters = Character.objects.filter(name__icontains=Name)
+    characters = Character.objects.filter(name__icontains=Name).order_by('id')
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 
 @api_view(['GET'])
 def realmList(request,key):
-    characters = Character.objects.filter(realm=REALMS[key])
+    characters = Character.objects.filter(realm=REALMS[key]).order_by('id')
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 
 @api_view(['GET'])
 def yearList(request,year):
-    characters = Character.objects.filter(release_date__year=year)
+    characters = Character.objects.filter(release_date__year=year).order_by('id')
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 
 @api_view(['GET'])
 def monthOfYearList(request,year,month):
-    characters = Character.objects.filter(release_date__year=year).filter(release_date__month=month)
+    characters = Character.objects.filter(release_date__year=year).filter(release_date__month=month).order_by('id')
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 
 @api_view(['GET'])
 def titleList(request,key):
-    characters = Character.objects.filter(game_origin=GAME_TITLES[key])
+    characters = Character.objects.filter(game_origin=GAME_TITLES[key]).order_by('id')
     serializer = CharacterSerializer(characters, many=True)
     return Response(serializer.data)
 
