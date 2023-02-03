@@ -1,6 +1,8 @@
 # Fire Emblem Heroes Resplendent API
 
-A REST API for new characters who receive "resplendent" skins (new art) for the mobile title Fire Emblem Heroes. The data is stored in a Django database.
+A REST API, stored in a Django database, for new characters who receive "resplendent" skins for the mobile title Fire Emblem Heroes showcased on the site:
+
+`https://fehpass.fire-emblem-heroes.com/en-US/`
 
 ## Endpoints
 
