@@ -1,12 +1,10 @@
 # Fire Emblem Heroes Resplendent API
 
-A REST API, stored in a Django database, for new characters who receive "resplendent" skins for the mobile title Fire Emblem Heroes showcased on the site:
-
-`https://fehpass.fire-emblem-heroes.com/en-US/`
+A REST API, stored in a Django database, for new characters who receive "resplendent" skins for the mobile title Fire Emblem Heroes showcased on the [Feh pass site](https://fehpass.fire-emblem-heroes.com/en-US/).
 
 ## Endpoints
 
-The API is hosted at: `https://feh-resplendent.herokuapp.com/`
+The API is hosted here: [https://feh-resplendent.herokuapp.com/](https://feh-resplendent.herokuapp.com/)
 
 Here are the available endpoints:
 
